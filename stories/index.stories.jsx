@@ -18,63 +18,6 @@ require('../dist/lib.css');
 
 const users = [
   {
-    id: 3,
-    englishName: 'Anton Tsar',
-    englishPosition: 'QA Director. QA Executive Officer',
-    russianName: 'Антон Царь',
-    russianPosition: 'Тостер',
-    phone: '79676474764',
-    avatarUrl:
-      'http://localhost:3000/api/images/avatar-prefix-n01-f43ba2d0-8b59-11e9-908c-31b2bccb7676/f43ba2d0-8b59-11e9-908c-31b2bccb7676-f4c23bd0-8080-11e9-9609-e349b77dd534-photo_2019-05-24_19-51-25.jpg',
-    isMember: false
-  },
-  {
-    id: 5,
-    englishName: 'danila',
-    englishPosition: 'Corporate Development and Human Resources Director',
-    russianName: 'danila',
-    russianPosition: 'dev',
-    phone: '79260349022',
-    avatarUrl:
-      'http://localhost:3000/api/images/avatar-prefix-n01-f4cc9830-8b59-11e9-9b82-e504e5afe89f/f4cc9830-8b59-11e9-9b82-e504e5afe89f-eae29cd0-5f6b-11e9-91a3-3b9e5d31fd15-Screenshot%25202019-04-12%2520at%252013.39.42.png',
-    isMember: false
-  },
-  {
-    id: 8,
-    englishName: 'Ivan',
-    englishPosition: 'iOS',
-    russianName: 'Иван',
-    russianPosition: 'йОС',
-    phone: '79652849095',
-    avatarUrl:
-      'http://localhost:3000/api/images/avatar-prefix-n01-f5332230-8b59-11e9-a675-b9aa79e113ab/f5332230-8b59-11e9-a675-b9aa79e113ab-462e2a20-808f-11e9-9609-e349b77dd534-userpic.png',
-    isMember: false
-  },
-  {
-    id: 10,
-    englishName: 'Mikhail Gramenitskiy',
-    englishPosition: 'Developer',
-    russianName: 'Михаил Граменицкий',
-    russianPosition: 'Разработчик',
-    phone: '79253582239',
-    avatarUrl:
-      'http://localhost:3000/api/images/avatar-prefix-n01-f5641d40-8b59-11e9-9b82-e504e5afe89f/f5641d40-8b59-11e9-9b82-e504e5afe89f-66a0d9e0-5ff3-11e9-9661-25e36b4a9cb8-s1200.png',
-    isMember: false
-  },
-  {
-    id: 5,
-    englishName: 'Anton Tsaregorodtsev',
-    englishPosition: 'QA Principal Department in Fortnite Technologies LTD',
-    russianName: 'Антон Царегородцев',
-    russianPosition: 'Тестировщик',
-    tamtam: '',
-    email: '',
-    phone: '77777777',
-    avatarUrl:
-      'https://test.boardapp.cometrica.ru/api/images/avatar-prefix-n01-5ab92390-6a88-11e9-8d50-a709f84033e1/5ab92390-6a88-11e9-8d50-a709f84033e1-IMG_7709.JPG',
-    isMember: true
-  },
-  {
     id: 11,
     englishName: 'bapp',
     englishPosition: 'ct1',
