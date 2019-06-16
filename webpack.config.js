@@ -157,6 +157,6 @@ module.exports = function() {
     },
     plugins,
     optimization,
-    devtool: isProduction ? 'none' : 'source-map'
+    devtool: 'none'
   };
 };
