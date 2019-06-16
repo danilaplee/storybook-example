@@ -1,0 +1,76 @@
+.user {
+  position: relative;
+  padding: 20px 30px;
+  font-size: 18px; }
+  .user .user__name {
+    font-size: 24px;
+    font-weight: bold; }
+  .user__photo {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%; }
+  .user__phone {
+    position: absolute;
+    right: 30px;
+    bottom: 20px; }
+  .invheader {
+  color: transparent !important; }
+  .userList th,
+.userList td {
+  font-size: 13px;
+  color: #c8c8c8;
+  font-weight: 400; }
+  .userList th {
+  font-family: 'SFProText-Regular', 'HevelticaNeue', Helvetica, sans-serif !important;
+  padding-bottom: 4px; }
+  .user-head-row {
+  border-bottom: 1px solid #c8c8c8;
+  -webkit-font-smoothing: antialiased !important;
+  padding: 15px; }
+  .user-item-row {
+  border-bottom: 1px solid #c8c8c8;
+  -webkit-font-smoothing: antialiased !important;
+  height: 80px;
+  color: #000; }
+  .user-item-edit {
+  float: right;
+  font-size: 15px;
+  padding-right: 16px; }
+  .user-item-row td .user-name {
+  -webkit-font-smoothing: antialiased !important;
+  font-size: 17px;
+  color: #000;
+  margin-top: 8px;
+  margin-bottom: 2px; }
+  .user-item-row td .user-role {
+  font-size: 15px;
+  color: #999;
+  -webkit-font-smoothing: antialiased !important; }
+  .tick-box {
+  text-align: center;
+  -webkit-font-smoothing: antialiased !important;
+  color: black !important; }
+  .user-list-avatar-box {
+  border-bottom: 1px solid #fff; }
+  .user-list-avatar-box .user__photo {
+  margin-right: 10px;
+  margin-left: 24px; }
+  .total-user-count {
+  color: #999; }
+  .check {
+  width: 24px; }
+  .delete-pointer {
+  cursor: pointer; }
+  .page-users .btn-default.active {
+  background: #000 !important;
+  color: #fff !important; }
+  .page-users .container-fluid {
+  padding-left: 30px;
+  padding-right: 40px; }
+
+
+/*# sourceMappingURL=lib.css.map*/

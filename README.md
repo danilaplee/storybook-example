@@ -18,5 +18,5 @@ yarn storybook
 
 ### build static storybook
 ```
-yarn storybook
+yarn build-storybook
 ```

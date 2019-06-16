@@ -69,7 +69,7 @@ module.exports = function() {
 
   return {
     target: 'node',
-    mode: isProduction ? 'production' : 'development',
+    mode: 'production',
     entry: {
       app: './src/index.js'
     },
