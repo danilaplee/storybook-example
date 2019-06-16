@@ -18,19 +18,6 @@ require('../dist/lib.css');
 
 const users = [
   {
-    id: 11,
-    englishName: 'bapp',
-    englishPosition: 'ct1',
-    russianName: 'бапп',
-    russianPosition: 'ст1',
-    tamtam: null,
-    email: null,
-    phone: '0000000000000',
-    avatarUrl:
-      'http://localhost:3000/api/images/avatar-prefix-n01-938e7c00-8d66-11e9-8476-d9e1a3e46c01/938e7c00-8d66-11e9-8476-d9e1a3e46c01-Favicon%20bapp.png',
-    isMember: true
-  },
-  {
     id: 14,
     englishName: 'Hello World',
     englishPosition: 'Adam West',
@@ -39,18 +26,6 @@ const users = [
     tamtam: null,
     email: null,
     phone: '11111111111111',
-    avatarUrl: '',
-    isMember: true
-  },
-  {
-    id: 15,
-    englishName: 'hiv',
-    englishPosition: 'hhh',
-    russianName: 'hiv',
-    russianPosition: 'hhhh',
-    tamtam: null,
-    email: null,
-    phone: '76575765765757',
     avatarUrl: '',
     isMember: true
   },
@@ -69,7 +44,7 @@ const users = [
   },
   {
     id: 12,
-    englishName: 'newm',
+    englishName: 'Vannessa',
     englishPosition: 'newm',
     russianName: 'newm',
     russianPosition: 'newm',
@@ -81,22 +56,6 @@ const users = [
     isMember: true
   }
 ];
-
-storiesOf('Welcome', module).add('to Storybook', () => (
-  <Welcome showApp={linkTo('Button')} />
-));
-
-storiesOf('Button', module)
-  .add('with text', () => (
-    <Button onClick={action('clicked')}>Hello Button</Button>
-  ))
-  .add('with some emoji', () => (
-    <Button onClick={action('clicked')}>
-      <span role="img" aria-label="so cool">
-        😀 😎 👍 💯
-      </span>
-    </Button>
-  ));
 
 storiesOf('UsersTable', module)
   .add('isFetching', () => <UsersTable isFetching={true} users={[]} />)
