@@ -1,0 +1,37 @@
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: '';
+
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin textEllipsis($width: 100%) {
+  max-width: $width;
+  overflow: hidden;
+
+  line-height: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin textEllipsisMultiline(
+  $font-size: 15px,
+  $line-height: $base-line-height,
+  $lines-to-show: 2
+) {
+  display: block; /* Fallback for non-webkit */
+  max-height: $font-size * $line-height * $lines-to-show + 3px; /* Fallback for non-webkit */
+  overflow: hidden;
+
+  font-size: $font-size;
+  line-height: $line-height;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: $lines-to-show;
+  -webkit-box-orient: vertical; // stylelint-disable-line property-no-vendor-prefix
+}
