@@ -87,12 +87,12 @@ module.exports = function() {
       ]
     },
     externals: {
-      // "react": 'react',
-      // "react-dom": "react-dom",
-      // "classnames": "classnames",
-      // "pdfjs-dist":"pdfjs-dist",
-      'react-bootstrap': 'react-bootstrap'
-      // "react-router-dom":"react-router-dom"
+      react: 'react',
+      'react-dom': 'react-dom',
+      classnames: 'classnames',
+      'pdfjs-dist': 'pdfjs-dist',
+      'react-bootstrap': 'react-bootstrap',
+      'react-router-dom': 'react-router-dom'
     },
     module: {
       rules: [
