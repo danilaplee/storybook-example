@@ -28,7 +28,7 @@
   "scenarios": [
 
     {
-      "label": "v2_button_normal",
+      "label": "UsersTable-isFetching",
       "url": "./storybook-static/iframe.html?selectedKind=BUTTONS%2FButton&selectedStory=normal&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Fnotes%2Fpanel",
       "selectors": ["button"]
     }
