@@ -39,7 +39,7 @@ const users = [
   }
 ];
 
-storiesOf('UsersTable', module)
+storiesOf('VIEWS/UsersTable', module)
   .add('isFetching', () => <UsersTable isFetching={true} users={[]} />, {
     notes: {
       markdown: `

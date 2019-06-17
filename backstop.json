@@ -1,0 +1,37 @@
+{
+  "id": "storybook_testing",
+  "viewports": [
+    {
+      "label": "base",
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",
+  "paths": {
+    "bitmaps_reference": "./backstop_data/bitmaps_reference",
+    "bitmaps_test": "./backstop_data/bitmaps_test",
+    "engine_scripts": "./backstop_data/engine_scripts",
+    "html_report": "./backstop_data/html_report",
+    "ci_report": "./backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false,
+  "scenarios": [
+
+    {
+      "label": "v2_button_normal",
+      "url": "./storybook-static/iframe.html?selectedKind=BUTTONS%2FButton&selectedStory=normal&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Fnotes%2Fpanel",
+      "selectors": ["button"]
+    }
+    
+  ]
+}
