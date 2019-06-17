@@ -30,6 +30,8 @@
     "@babel/runtime": "7.3.4",
     "@storybook/addon-actions": "^5.1.8",
     "@storybook/addon-links": "^5.1.8",
+    "@storybook/addon-notes": "^5.1.8",
+    "@storybook/addon-options": "^5.1.8",
     "@storybook/addons": "^5.1.8",
     "@storybook/react": "^5.1.8",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",

@@ -1,18 +1,12 @@
 import React from 'react';
-import ReactDom from 'react-dom';
-
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
-import * as reactStrap from 'react-bootstrap';
-
-import { Button, Welcome } from '@storybook/react/demo';
+import { withMarkdownNotes } from '@storybook/addon-notes';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 
-const lib = require('storybook-example');
-
-const { UsersTable } = lib;
+import { UsersTable } from 'storybook-example';
 
 require('storybook-example/dist/lib.css');
 
@@ -46,14 +40,68 @@ const users = [
 ];
 
 storiesOf('UsersTable', module)
-  .add('isFetching', () => <UsersTable isFetching={true} users={[]} />)
-  .add('withUsers', () => (
-    <Router>
-      <UsersTable isFetching={false} users={users} />
-    </Router>
-  ))
-  .add('canDelete', () => (
-    <Router>
-      <UsersTable canDelete={true} users={users} showMinimal={true} />
-    </Router>
-  ));
+  .add('isFetching', () => <UsersTable isFetching={true} users={[]} />, {
+    notes: {
+      markdown: `
+  ## isFetching
+  ~~~~ 
+  import { UsersTable } from 'storybook-example'; 
+  <UsersTable 
+    isFetching={true} 
+    users={[]}
+  /> 
+  ~~~~ 
+  `
+    }
+  })
+  .add(
+    'withUsers',
+    () => (
+      <Router>
+        <UsersTable isFetching={false} users={users} />
+      </Router>
+    ),
+    {
+      notes: {
+        markdown: `
+  ## withUsers
+  ~~~~ 
+  import { UsersTable } from 'storybook-example'; 
+
+  const users = ${JSON.stringify(users, null, 2)}
+
+  <UsersTable 
+    isFetching={false} 
+    users={users}
+  /> 
+  ~~~~ 
+  `
+      }
+    }
+  )
+  .add(
+    'canDelete',
+    () => (
+      <Router>
+        <UsersTable canDelete={true} users={users} showMinimal={true} />
+      </Router>
+    ),
+    {
+      notes: {
+        markdown: `
+  ## canDelete
+  ~~~~ 
+  import { UsersTable } from 'storybook-example'; 
+
+  const users = ${JSON.stringify(users, null, 2)}
+  
+  <UsersTable 
+     canDelete={true} 
+     users={users} 
+     showMinimal={true} 
+  />
+  ~~~~ 
+  `
+      }
+    }
+  );
