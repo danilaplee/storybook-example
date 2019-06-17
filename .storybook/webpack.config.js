@@ -13,6 +13,9 @@ module.exports = merge(common, {
   output: {
     filename: 'bundle.[chunkhash].js'
   },
+  resolve: {
+    symlinks: false
+  },
   optimization: {
     minimizer: [
       new UglifyJsPlugin({

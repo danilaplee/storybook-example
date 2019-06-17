@@ -4,8 +4,8 @@
   "main": "dist/lib.js",
   "scripts": {
     "build-lib": "./node_modules/.bin/webpack",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "yarn build-lib && yarn link && yarn link 'storybook-example' && start-storybook -p 6006",
+    "build-storybook": "yarn build-lib && yarn link && yarn link 'storybook-example' && build-storybook"
   },
   "husky": {
     "hooks": {

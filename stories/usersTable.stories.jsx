@@ -10,11 +10,11 @@ import { Button, Welcome } from '@storybook/react/demo';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 
-const lib = require('../dist/lib.js');
+const lib = require('storybook-example');
 
 const { UsersTable } = lib;
 
-require('../dist/lib.css');
+require('storybook-example/dist/lib.css');
 
 const users = [
   {
