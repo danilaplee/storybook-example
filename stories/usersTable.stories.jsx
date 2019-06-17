@@ -46,9 +46,12 @@ storiesOf('UsersTable', module)
   ## isFetching
   ~~~~ 
   import { UsersTable } from 'storybook-example'; 
+
+  const users = []
+
   <UsersTable 
     isFetching={true} 
-    users={[]}
+    users={users}
   /> 
   ~~~~ 
   `
