@@ -1,2 +1,4 @@
 dist
 storybook-static
+backstop_data
+node_modules

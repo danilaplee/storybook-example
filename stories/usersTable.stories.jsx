@@ -13,28 +13,28 @@ require('storybook-example/dist/lib.css');
 const users = [
   {
     id: 14,
-    englishName: 'Hello World',
-    englishPosition: 'Adam West',
+    englishName: 'Adam West',
+    englishPosition: 'Mayor',
     phone: '11111111111111',
     avatarUrl: '',
     isMember: true
   },
   {
     id: 13,
-    englishName: 'new1',
-    englishPosition: 'new11',
+    englishName: 'PC Principal',
+    englishPosition: 'Principal',
     phone: '22223333333333',
     avatarUrl:
-      'http://localhost:3000/api/images/avatar-prefix-n01-f3b64fc0-8dd6-11e9-8742-e1c0a227e48e/f3b64fc0-8dd6-11e9-8742-e1c0a227e48e-2019-04-25%2023.33.10.jpg',
+      'https://test.boardapp.cometrica.ru/api/images/avatar-prefix-n01-0280f410-a4a7-11e9-b6be-d16c47595f9b/0280f410-a4a7-11e9-b6be-d16c47595f9b-Pc%2Bprincipal%2Bbrah%2Bjust%2Bout%2Bof%2Bcuriosity%2Bwhat%2Bare%2Byour_c20788_5720727%5B2%5D.jpg',
     isMember: false
   },
   {
     id: 12,
-    englishName: 'Vannessa',
-    englishPosition: 'newm',
+    englishName: 'Pikachu',
+    englishPosition: 'pokemon',
     phone: '22222222222',
     avatarUrl:
-      'http://localhost:3000/api/images/avatar-prefix-n01-2cb6da20-8dc7-11e9-8fb6-410410f818a4/2cb6da20-8dc7-11e9-8fb6-410410f818a4-Favicon%20bapp.png',
+      'https://test.boardapp.cometrica.ru/api/images/avatar-prefix-n01-f7e68270-a7e1-11e9-8ee7-074937da2554/f7e68270-a7e1-11e9-8ee7-074937da2554-Pokemon1.png',
     isMember: true
   }
 ];

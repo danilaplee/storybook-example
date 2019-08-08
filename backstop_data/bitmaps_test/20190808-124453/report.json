@@ -1,0 +1,130 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-example_BackstopJS_Homepage_0_document_0_phone.png",
+        "test": "../bitmaps_test/20190808-124453/storybook-example_BackstopJS_Homepage_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "storybook-example_BackstopJS_Homepage_0_document_0_phone.png",
+        "label": "BackstopJS Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://garris.github.io/BackstopJS/",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "error": "Reference file not found /Users/danilapuzikov/dev/clones/storybook-example/backstop_data/bitmaps_reference/storybook-example_BackstopJS_Homepage_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-example_BackstopJS_Homepage_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20190808-124453/storybook-example_BackstopJS_Homepage_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "storybook-example_BackstopJS_Homepage_0_document_1_tablet.png",
+        "label": "BackstopJS Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://garris.github.io/BackstopJS/",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "error": "Reference file not found /Users/danilapuzikov/dev/clones/storybook-example/backstop_data/bitmaps_reference/storybook-example_BackstopJS_Homepage_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-example_UsersTable-isFetching_0_document_0_phone.png",
+        "test": "../bitmaps_test/20190808-124453/storybook-example_UsersTable-isFetching_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "storybook-example_UsersTable-isFetching_0_document_0_phone.png",
+        "label": "UsersTable-isFetching",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:6006/iframe.html?id=userstable--isfetching",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "error": "Reference file not found /Users/danilapuzikov/dev/clones/storybook-example/backstop_data/bitmaps_reference/storybook-example_UsersTable-isFetching_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-example_UsersTable-isFetching_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20190808-124453/storybook-example_UsersTable-isFetching_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "storybook-example_UsersTable-isFetching_0_document_1_tablet.png",
+        "label": "UsersTable-isFetching",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:6006/iframe.html?id=userstable--isfetching",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "error": "Reference file not found /Users/danilapuzikov/dev/clones/storybook-example/backstop_data/bitmaps_reference/storybook-example_UsersTable-isFetching_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-example_UsersTable-withUsers_0_document_0_phone.png",
+        "test": "../bitmaps_test/20190808-124453/storybook-example_UsersTable-withUsers_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "storybook-example_UsersTable-withUsers_0_document_0_phone.png",
+        "label": "UsersTable-withUsers",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:6006/iframe.html?id=userstable--withusers",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "error": "Reference file not found /Users/danilapuzikov/dev/clones/storybook-example/backstop_data/bitmaps_reference/storybook-example_UsersTable-withUsers_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-example_UsersTable-withUsers_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20190808-124453/storybook-example_UsersTable-withUsers_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "storybook-example_UsersTable-withUsers_0_document_1_tablet.png",
+        "label": "UsersTable-withUsers",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:6006/iframe.html?id=userstable--withusers",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "error": "Reference file not found /Users/danilapuzikov/dev/clones/storybook-example/backstop_data/bitmaps_reference/storybook-example_UsersTable-withUsers_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-example_UsersTable-canDelete_0_document_0_phone.png",
+        "test": "../bitmaps_test/20190808-124453/storybook-example_UsersTable-canDelete_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "storybook-example_UsersTable-canDelete_0_document_0_phone.png",
+        "label": "UsersTable-canDelete",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:6006/iframe.html?id=userstable--candelete",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "error": "Reference file not found /Users/danilapuzikov/dev/clones/storybook-example/backstop_data/bitmaps_reference/storybook-example_UsersTable-canDelete_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/storybook-example_UsersTable-canDelete_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20190808-124453/storybook-example_UsersTable-canDelete_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "storybook-example_UsersTable-canDelete_0_document_1_tablet.png",
+        "label": "UsersTable-canDelete",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:6006/iframe.html?id=userstable--candelete",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "error": "Reference file not found /Users/danilapuzikov/dev/clones/storybook-example/backstop_data/bitmaps_reference/storybook-example_UsersTable-canDelete_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "storybook-example"
+}
