@@ -4,7 +4,8 @@
   "main": "dist/lib.js",
   "scripts": {
     "build-lib": "./node_modules/.bin/webpack",
-    "storybook": "yarn build-lib && yarn link && yarn link 'storybook-example' && start-storybook -p 6006",
+    "dev": "nodemon -e js,jsx,scss --watch src --exec \"yarn storybook\"",
+    "storybook": "yarn build-lib && yarn link && yarn link 'storybook-example' && start-storybook --ci -p 6006",
     "test": "./node_modules/backstopjs/cli/index.js test",
     "backstop": "./node_modules/backstopjs/cli/index.js",
     "build-storybook": "yarn build-lib && yarn link && yarn link 'storybook-example' && build-storybook"
@@ -51,6 +52,7 @@
     "lodash": "4.17.11",
     "moment": "2.24.0",
     "moment-timezone": "0.5.23",
+    "nodemon": "^1.19.1",
     "pdfjs-dist": "2.0.943",
     "prop-types": "15.7.2",
     "react": "16.8.4",

@@ -6,7 +6,7 @@ report({
         reference:
           '../bitmaps_reference/storybook-example_UsersTable-isFetching_0_document_0_phone.png',
         test:
-          '../bitmaps_test/20190808-130639/storybook-example_UsersTable-isFetching_0_document_0_phone.png',
+          '../bitmaps_test/20190808-133257/storybook-example_UsersTable-isFetching_0_document_0_phone.png',
         selector: 'document',
         fileName:
           'storybook-example_UsersTable-isFetching_0_document_0_phone.png',
@@ -31,7 +31,7 @@ report({
         reference:
           '../bitmaps_reference/storybook-example_UsersTable-isFetching_0_document_1_tablet.png',
         test:
-          '../bitmaps_test/20190808-130639/storybook-example_UsersTable-isFetching_0_document_1_tablet.png',
+          '../bitmaps_test/20190808-133257/storybook-example_UsersTable-isFetching_0_document_1_tablet.png',
         selector: 'document',
         fileName:
           'storybook-example_UsersTable-isFetching_0_document_1_tablet.png',
@@ -56,7 +56,7 @@ report({
         reference:
           '../bitmaps_reference/storybook-example_UsersTable-withUsers_0_document_0_phone.png',
         test:
-          '../bitmaps_test/20190808-130639/storybook-example_UsersTable-withUsers_0_document_0_phone.png',
+          '../bitmaps_test/20190808-133257/storybook-example_UsersTable-withUsers_0_document_0_phone.png',
         selector: 'document',
         fileName:
           'storybook-example_UsersTable-withUsers_0_document_0_phone.png',
@@ -81,7 +81,7 @@ report({
         reference:
           '../bitmaps_reference/storybook-example_UsersTable-withUsers_0_document_1_tablet.png',
         test:
-          '../bitmaps_test/20190808-130639/storybook-example_UsersTable-withUsers_0_document_1_tablet.png',
+          '../bitmaps_test/20190808-133257/storybook-example_UsersTable-withUsers_0_document_1_tablet.png',
         selector: 'document',
         fileName:
           'storybook-example_UsersTable-withUsers_0_document_1_tablet.png',
@@ -96,8 +96,7 @@ report({
             width: 0,
             height: 0
           },
-          misMatchPercentage: '0.00',
-          analysisTime: 30
+          misMatchPercentage: '0.00'
         }
       },
       status: 'pass'
@@ -107,7 +106,7 @@ report({
         reference:
           '../bitmaps_reference/storybook-example_UsersTable-canDelete_0_document_0_phone.png',
         test:
-          '../bitmaps_test/20190808-130639/storybook-example_UsersTable-canDelete_0_document_0_phone.png',
+          '../bitmaps_test/20190808-133257/storybook-example_UsersTable-canDelete_0_document_0_phone.png',
         selector: 'document',
         fileName:
           'storybook-example_UsersTable-canDelete_0_document_0_phone.png',
@@ -132,7 +131,7 @@ report({
         reference:
           '../bitmaps_reference/storybook-example_UsersTable-canDelete_0_document_1_tablet.png',
         test:
-          '../bitmaps_test/20190808-130639/storybook-example_UsersTable-canDelete_0_document_1_tablet.png',
+          '../bitmaps_test/20190808-133257/storybook-example_UsersTable-canDelete_0_document_1_tablet.png',
         selector: 'document',
         fileName:
           'storybook-example_UsersTable-canDelete_0_document_1_tablet.png',
